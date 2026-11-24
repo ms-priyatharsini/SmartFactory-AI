@@ -1,0 +1,9 @@
+{
+  "name": "SmartFactory AI Order-to-Audit",
+  "short_name": "SmartFactory",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#10243a",
+  "description": "Order, production, inventory and audit workspace for a small food manufacturer."
+}

@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SmartFactory AI | Sign in</title><link rel="stylesheet" href="/static/style.css"></head>
+<body class="login-page"><div class="login-shell"><div class="login-brand"><div class="brand-mark">SF</div><div><b>SmartFactory <span>AI</span></b><small>Manufacturing intelligence platform</small></div></div>
+<div class="login-card"><div class="eyebrow">SECURE WORKSPACE</div><h1>Welcome back</h1><p>Sign in to manage orders, production and audit operations.</p>
+{% if error %}<div class="error">{{error}}</div>{% endif %}
+<form method="post"><label>Username</label><input name="username" placeholder="Enter username" required><label>Password</label><input name="password" type="password" placeholder="Enter password" required><button class="primary full">Sign in to workspace</button></form>
+<div class="demo-users"><b>Demo access</b><span>Admin: admin / admin123</span><span>Sales: salesa / sales123</span><span>Production: production / prod123</span><span>Auditor: auditor / audit123</span><span>Owner: owner / owner123</span></div></div><footer>© 2026 SmartFactory AI · Internship prototype</footer></div></body></html>
